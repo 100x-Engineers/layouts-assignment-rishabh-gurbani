@@ -66,7 +66,7 @@ module.exports = {
           'lineHeight': '1.5rem',
         }],
         '15':[
-          '0.9375', {
+          '0.9375rem', {
             'lineHeight': '1.125rem'
           }
         ],
