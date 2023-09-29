@@ -1059,6 +1059,14 @@ video {
   background-image: url('../../public/images/user-avatars/user-avatar-2.png');
 }
 
+.bg-\[url\(\'\.\.\/public\/images\/cover\.png\'\)\]{
+  background-image: url('../public/images/cover.png');
+}
+
+.bg-\[url\(\'\.\.\/public\/images\/user-avatars\/user-avatar-2\.png\'\)\]{
+  background-image: url('../public/images/user-avatars/user-avatar-2.png');
+}
+
 .bg-contain{
   background-size: contain;
 }
