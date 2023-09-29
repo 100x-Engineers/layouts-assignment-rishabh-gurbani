@@ -641,6 +641,10 @@ video {
   height: 100vh;
 }
 
+.h-\[calc\(100dvh\)\]{
+  height: calc(100dvh);
+}
+
 .w-12{
   width: 3rem;
 }
@@ -704,6 +708,10 @@ video {
 
 .self-end{
   align-self: flex-end;
+}
+
+.overflow-auto{
+  overflow: auto;
 }
 
 .rounded{
