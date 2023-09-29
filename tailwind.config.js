@@ -2,14 +2,23 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage:{
+        'coverImage': "url('/public/images/cover.png')",
+        'profileImage': "url('/public/images/user-avatars/user-avatar-2.png')",
+
+      },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+      },
+      spacing:{
+        '9.5':'2.375rem'
       },
       height:{
         "10.5":"2.625rem",
         "15":"3.75rem",
         "tweet":'13.75rem',
-        '86':'22.25rem'
+        '70': '4.375rem',
+        '86':'22.25rem',
       },
       width:{
         '21':'5.375rem',
@@ -20,7 +29,8 @@ module.exports = {
         '100':'27.625rem',
         'xxl':'30.125rem',
         'xxxl':'32rem',
-        'tweet':'37.5rem'
+        'tweet':'37.5rem',
+        '17':'4.25rem',
       },
       colors:{
         "neutral-50":"#f9f9f9",
